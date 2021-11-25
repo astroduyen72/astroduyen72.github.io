@@ -11,6 +11,7 @@ const textConfig = {
   text10: "Mình yêu nhau là hợp lý rồi =))",
   text11:
     "I love you 3000 <3",
+  text12: "Nhắn tin thôi :P",
 };
 
 $(document).ready(function () {
@@ -137,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "http://fb.com/Chuckydn";
           },
         });
       }
